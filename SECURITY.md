@@ -4,12 +4,12 @@
 
 | Version | Supported |
 |---|---|
-| latest | ✅ |
-| < latest | ❌ |
+| latest | â |
+| < latest | â |
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability, please report it to security@hikari-group.com.
+If you discover a security vulnerability, please report it to security@hikari-group.tech.
 
 **Do NOT open a public issue for security vulnerabilities.**
 
