@@ -20,7 +20,7 @@ We pledge to make participation in our community a harassment-free experience fo
 
 ## Enforcement
 
-Instances of abusive behavior may be reported to conduct@hikari-group.com. All complaints will be reviewed and investigated.
+Instances of abusive behavior may be reported to conduct@hikari-group.tech. All complaints will be reviewed and investigated.
 
 ## Attribution
 
