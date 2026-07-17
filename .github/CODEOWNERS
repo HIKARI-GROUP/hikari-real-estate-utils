@@ -1,0 +1,11 @@
+# Default owners
+* @hikari-group/core-team
+
+# Documentation
+/docs/ @hikari-group/docs-team
+
+# AI
+/ai/ @hikari-group/ai-team
+
+# Tests
+/tests/ @hikari-group/core-team
