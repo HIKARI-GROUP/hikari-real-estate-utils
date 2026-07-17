@@ -1,40 +1,38 @@
 <div align="center">
 
-# 🏔️ HIKARI Real Estate Utils
+# ðï¸ HIKARI Real Estate Utils
 
-**Bibliothèque JavaScript de calculs immobiliers — rentabilité, cash-flow, DPE, amortissement**
+**BibliothÃ¨que JavaScript de calculs immobiliers â rentabilitÃ©, cash-flow, DPE, amortissement**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/) [![JavaScript](https://img.shields.io/badge/JavaScript-blue)]()
 [![Version](https://img.shields.io/badge/version-v0.1.0-blue)](./CHANGELOG.md)
-[![Build](https://img.shields.io/badge/build-passing-brightgreen)]()
-[![Coverage](https://img.shields.io/badge/coverage-90%25-brightgreen)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 [![Stars](https://img.shields.io/github/stars/HIKARI-GROUP/hikari-real-estate-utils)](https://github.com/HIKARI-GROUP/hikari-real-estate-utils)
 [![Last Commit](https://img.shields.io/github/last-commit/HIKARI-GROUP/hikari-real-estate-utils)](https://github.com/HIKARI-GROUP/hikari-real-estate-utils/commits)
 [![Discussions](https://img.shields.io/github/discussions/HIKARI-GROUP/hikari-real-estate-utils)](https://github.com/HIKARI-GROUP/hikari-real-estate-utils/discussions)
 
-[📖 Documentation](./docs/) · [🗺️ Roadmap](./ROADMAP.md) · [🤝 Contributing](./CONTRIBUTING.md) · [💻 Examples](./examples/) · [🧪 Tests](./tests/) · [🤖 AI](./ai/) · [💼 Careers](./CAREERS.md)
+[ð Documentation](./docs/) Â· [ðºï¸ Roadmap](./ROADMAP.md) Â· [ð¤ Contributing](./CONTRIBUTING.md) Â· [ð» Examples](./examples/) Â· [ð§ª Tests](./tests/) Â· [ð¤ AI](./ai/) Â· [ð¼ Careers](./CAREERS.md)
 
 </div>
 
 ---
 
-## 📋 Overview
+## ð Overview
 
 A JavaScript/TypeScript library for real estate financial calculations: rental yield, mortgage payments, amortization schedules, DPE conversion, and cash-flow analysis.
 
-## ✨ Features
+## â¨ Features
 
-- 📊 Gross rental yield
-- 💰 Net rental yield (after charges)
-- 🏦 Mortgage monthly payment
-- 📅 Amortization schedule
-- 🔋 DPE score to letter (A-G)
-- 💵 Cash-flow calculation
-- 📈 Borrowing capacity
-- 🧪 100% test coverage
+- ð Gross rental yield
+- ð° Net rental yield (after charges)
+- ð¦ Mortgage monthly payment
+- ð Amortization schedule
+- ð DPE score to letter (A-G)
+- ðµ Cash-flow calculation
+- ð Borrowing capacity
+- ð§ª 100% test coverage
 
-## 🏗️ Architecture
+## ðï¸ Architecture
 
 ```mermaid
 graph TD
@@ -48,45 +46,45 @@ graph TD
 
 See [Architecture](./docs/Architecture.md) for full details.
 
-## 🚀 Installation
+## ð Installation
 
 ```bash
 npm install @hikari/real-estate-utils
 ```
 
-## 📖 Usage
+## ð Usage
 
 ```javascript
 import { grossRentalYield, monthlyPayment } from "@hikari/real-estate-utils";
 
 const yield = grossRentalYield({ monthlyRent: 1200, price: 200000 });
-// → 7.2%
+// â 7.2%
 
 const payment = monthlyPayment({ principal: 180000, annualRate: 0.035, years: 25 });
-// → 900.36
+// â 900.36
 ```
 
-## 📁 Project Structure
+## ð Project Structure
 
 ```
 hikari-real-estate-utils/
-├── src/
-│   ├── yields.ts        # Yield calculations
-│   ├── amortization.ts   # Loan amortization
-│   ├── dpe.ts            # DPE conversion
-│   └── cashflow.ts       # Cash-flow analysis
-├── tests/
-├── examples/
-└── docs/
+âââ src/
+â   âââ yields.ts        # Yield calculations
+â   âââ amortization.ts   # Loan amortization
+â   âââ dpe.ts            # DPE conversion
+â   âââ cashflow.ts       # Cash-flow analysis
+âââ tests/
+âââ examples/
+âââ docs/
 ```
 
-## 🛠️ Technologies
+## ð ï¸ Technologies
 
 - TypeScript
 - Vitest
 - JavaScript
 
-## 📚 Documentation
+## ð Documentation
 
 | Document | Description |
 |---|---|
@@ -105,36 +103,36 @@ hikari-real-estate-utils/
 | [Onboarding](./docs/Developer-Onboarding.md) | Developer onboarding |
 | [Environment](./docs/Environment.md) | Environment setup |
 
-## 🗺️ Roadmap
+## ðºï¸ Roadmap
 
 See [ROADMAP.md](./ROADMAP.md) for our full vision.
 
-## 🤝 Contributing
+## ð¤ Contributing
 
 We welcome contributions! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) first.
 
-- 🐛 [Report a bug](https://github.com/HIKARI-GROUP/hikari-real-estate-utils/issues/new?labels=bug)
-- 💡 [Request a feature](https://github.com/HIKARI-GROUP/hikari-real-estate-utils/issues/new?labels=enhancement)
-- 📝 [Improve docs](https://github.com/HIKARI-GROUP/hikari-real-estate-utils/issues/new?labels=documentation)
-- 🔍 [Good first issues](https://github.com/HIKARI-GROUP/hikari-real-estate-utils/labels/good%20first%20issue)
+- ð [Report a bug](https://github.com/HIKARI-GROUP/hikari-real-estate-utils/issues/new?labels=bug)
+- ð¡ [Request a feature](https://github.com/HIKARI-GROUP/hikari-real-estate-utils/issues/new?labels=enhancement)
+- ð [Improve docs](https://github.com/HIKARI-GROUP/hikari-real-estate-utils/issues/new?labels=documentation)
+- ð [Good first issues](https://github.com/HIKARI-GROUP/hikari-real-estate-utils/labels/good%20first%20issue)
 
-## 📄 License
+## ð License
 
-MIT © HIKARI GROUP
+MIT Â© HIKARI GROUP
 
-## 💼 Careers
+## ð¼ Careers
 
 We're hiring! See [CAREERS.md](./CAREERS.md) for open positions.
 
-## 🌐 Links
+## ð Links
 
-- 🏢 [HIKARI GROUP](https://github.com/HIKARI-GROUP)
-- 🌍 [Website](https://hikari-group.com)
-- 💼 [LinkedIn](https://www.linkedin.com/company/hikari-group)
-- 📧 [Contact](mailto:contact@hikari-group.com)
+- ð¢ [HIKARI GROUP](https://github.com/HIKARI-GROUP)
+- ð [Website](https://hikari-group.tech)
+- ð¼ [LinkedIn](https://www.linkedin.com/company/hikari-group)
+- ð§ [Contact](mailto:contact@hikari-group.tech)
 
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by <a href="https://github.com/HIKARI-GROUP">HIKARI GROUP</a></sub>
+  <sub>Built with â¤ï¸ by <a href="https://github.com/HIKARI-GROUP">HIKARI GROUP</a></sub>
 </div>
